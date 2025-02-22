@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    align-items: center;
+    background-color: #511AB7;
+    list-style: none;
+    height: 97px;
+   }
+   
+   
+   nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    list-style: none;
+   }
+   
