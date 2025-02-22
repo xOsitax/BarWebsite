@@ -3,35 +3,19 @@ body {
   padding: 0;
 }
 
-ul {
-  padding: 0;
-  width: 100%;
-  list-style: none;
-  background-color: blueviolet;
+nav {
   display: flex;
-  align-items: center;
+  gap: 37px;
   justify-content: center;
+  align-items: center;
+  background-color: #511ab7;
+  list-style: none;
+  height: 97px;
 }
 
-li {
-  margin: 0 15px;
-}
-
-li a {
-  display: block;
-  padding: 20px 15px;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  color: white;
-  text-align: center;
-}
-
-li a:hover {
-  background: gray;
-  text-transform: uppercase;
-}
-
-.logo img {
-  width: 80px;
-  height: auto;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  list-style: none;
 }
