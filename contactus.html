@@ -3,49 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/contactus.css" />
-    <title>Contact Us</title>
+    <title>Bar 141 - Reservation</title>
+    <link rel="stylesheet" href="/styles/contactus.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
   </head>
   <body>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>About us</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
       </ul>
       <div class="logo">
         <img src="images/logo.png" alt="bar logo" />
       </div>
       <ul>
-        <li>Gallery</li>
-        <li>Contact us</li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact us</a></li>
       </ul>
     </nav>
-    <section id="contact">
-      <form action="contactus.html" method="post">
-        <label for="name">FULL NAME</label>
-        <input type="text" id="name" name="name" required />
-        <label for="email">EMAIL ADDRESS</label>
-        <input type="email" id="email" name="email" required />
-        <label for="phone">PHONE NUMBER</label>
-        <input type="tel" id="phone" name="phone" required />
-        <label for="date">DATE</label>
-        <input type="date" id="date" name="date" required />
-        <label for="time">TIME</label>
-        <input type="time" id="time" name="time" required />
-        <label for="guests">GUEST ATTENDING</label>
-        <input type="number" id="guestnr" name="guestnr" required />
-        <label for="message">OCASSION/ADDITIONAL INFO</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">REQUEST RESERVATION</button>
-      </form>
-    </section>
-    <section id="joinus">
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="mailname" name="name" required />
-        <label for="email">Email:</label>
-        <input type="email" id="e-mail" name="email" required />
-      </form>
+    <section class="reservation-container">
+      <div class="reservation-box">
+        <h2>MAKE A RESERVATION</h2>
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="tel" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <input type="date" required />
+            <input type="time" required />
+            <input type="number" placeholder="Guest Attending" required />
+          </div>
+          <textarea
+            placeholder="Occasion / Additional Info"
+            required
+          ></textarea>
+          <button type="submit" class="button">REQUEST RESERVATION</button>
+        </form>
+      </div>
     </section>
   </body>
 </html>
