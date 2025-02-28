@@ -15,4 +15,68 @@ nav{
     gap: 37px;
     list-style: none;
    }
+   .gallery{
+    width: 100%;
+    font-style:bold;
+    font-family: 'roboto slab',sans-serif;
+    text-align: center;
+    margin-top: 77px;
+    font-size: 40px;
+   }
+   .footer-logo {
+    flex: 1;
+    max-width: 185px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 200px;
+    padding-left: 20px;
+  }
+  
+  .footer-column a {
+    font-size: 16px;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #511ab7;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  
+  .footer a,
+  h3 {
+    color: white;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  @media (min-width: 1200px) {
+    .reservation-container,
+    .joinus-container {
+      padding: 40px;
+    }
+  
+    .footer-links {
+      gap: 40px;
+    }
+  
+    .footer-column {
+      min-width: 250px;
+    }
+  }
    
