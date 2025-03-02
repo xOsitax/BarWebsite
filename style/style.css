@@ -80,6 +80,19 @@ body{
       min-width: 250px;
     }
   }
+  .gallery  {
+    font-size: 30px;
+    font-weight: bold;
+    animation: colourchange 5s infinite alternate;
+}
+
+@keyframes colourchange {
+    0% { color: black; }
+    25% { color: #511ab7; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+}
 
   .grid1 {
     display: grid;
