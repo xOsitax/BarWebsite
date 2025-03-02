@@ -9,6 +9,11 @@ nav {
     background-color: #511ab7;
     list-style: none;
     height: 97px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
   }
   
   nav a {
@@ -39,14 +44,17 @@ nav {
 	
 	justify-content: center;
 	align-items: center;
-	background-color: #ebeaea;
+	background-color: #d1cdcd;
     display: flex;
     padding: 20px;
     padding-right: 0px;
     
 }
 body{
-    background-color: #ebeaea;
+    position: relative;
+    background-color: #d1cdcd;
+    overflow: auto;
+    margin-top: 140px;
 }
 
 
@@ -85,10 +93,9 @@ body{
     padding: 15px;
     place-items: center;
     background-color: #ffff;
- 
-
+    
   }
-
+  
   .item1 {
     grid-row: 1/2;
     grid-column: 1/4;
