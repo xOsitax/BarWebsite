@@ -95,6 +95,13 @@ body{
     background-color: #ffff;
     
   }
+  .grid1 img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid1 img:hover {
+    transform: scale(0.9);
+}
   
   .item1 {
     grid-row: 1/2;
