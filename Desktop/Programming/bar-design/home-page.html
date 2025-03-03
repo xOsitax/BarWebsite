@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ramaraja&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" href="styles/home-page.css">
   <link rel="stylesheet" href="styles/normalize.css">
   <title>Home page</title>
@@ -11,25 +13,25 @@
 <body>
 
   <header>
-   <nav>
-    <ul>
-      <li><a href="index.html"></a>Home</li>
-      <li><a href="about.html"></a>About us</li>
-    </ul>
-      <div class="logo">
-        <img src="img/logo.png" alt="bar logo">
-       </div>
-    <ul>
-      <li><a href=""></a>Gallery</li>
-      <li><a href=""></a>Contact us</li>
-    </ul>
-   </nav> 
+    <nav>
+      <ul>
+        <li><a href="home-page.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+      <div class="logo-container">
+        <img src="img/logo.png" alt="Bar Logo" />
+      </div>
+      <ul>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+      </ul>
+    </nav>
   </header>
 
   
   <main>
     <div class="section1">
-      <h1>FAMILY EATERY</h1>
+      <h1 class="animate__animated animate__heartBeat">FAMILY EATERY</h1>
       <h2>COCKTAIL BAR</h2>
       <button class="order-btn">ORDER NOW</button>
       <img src="img/1st Section image.png" alt="bar picture">
@@ -63,34 +65,27 @@
       </div>
     </div>
 
-    <div class="section4">
-      
-      <div class="left"><img src="img/bar141.png" alt="bottle of wine"></div>
-      
+    <div class="section4">      
+      <div class="left"><img src="img/bar141.png" alt="bottle of wine"></div>      
       <div class="right">
         <div class="form">
           <div class="text">
             <p class="text-newsletters">NEWSLETTER SIGN UP</p>
             <h4>CLAIM 10% OFF YOUR FIRST ORDER </h4>
-            <p class="text-regular">Get 10% off your first purchase when you sign up today. 
+            <p class="text-regular">Get 10% off your first purchase <br> when you sign up today. 
             You’ll also get access to exclusive sales and deals only available to our subscribers.</p>
           </div>
-
           <form action="">
             <label for="email" class="label"></label>
             <input type="email" name="email" id="email" class="input-field" placeholder="Your Email Address" required>
             <button type="submit" class="subscribe-btn">SUBSCRIBE</button>          
-          </form>
-          
-       
-          
+          </form>                   
           <div  class="middle">
             <div class="block">
               <img src="img/champagne.png" alt="champagne">
               <p class="text-title">Great Daily Deal</p>
               <p class="text-small">We have over 10,000 Reviews on Trustpilot.</p>
-            </div>
-              
+            </div>           
             <div class="block">
               <img src="img/hourglass.png" alt="hourglass">
               <p class="text-title">Next Day Delivery</p>
@@ -99,18 +94,13 @@
                   Delivery</p>
             </div>  
           </div>
-
           <div class="block-big">
             <img src="img/removebg.png" alt="shaking bottle">
             <p class="text-title-big">BECOME A DRINK EXPEERT</p>
             <p class="text-brown">
               Get cocktail recipes, wine guides, and the <br>latest food news when you sign up for <br> newsletters from our family of brands.</p>
            </div> 
-        </div>
-          
-
-       
-         
+        </div>   
       </div> 
 
 
@@ -122,10 +112,11 @@
     </div>
   </main>
 
+  
   <footer class="footer">
-    <img src="img/logo.png" alt="logo" class="logo" />
-    <div class="footer-info">
-      <div class="footer-logo"></div>
+    
+    <div class="footer-logo"><img src="images/logo.png" alt="logo" class="logo" /></div>
+    
       <div class="footer-links">
         <div class="footer-column">
           <h3>LOCATION</h3>
@@ -147,10 +138,12 @@
           <a href="#">Contact Us</a>
           <a href="#">Reservation</a>
         </div>
-      </div>
+    </div>
+
+    <div class="footer-info">
+    *small logo
     </div>
   </footer>
-
   
 </body>
 </html>

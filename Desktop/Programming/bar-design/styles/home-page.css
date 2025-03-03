@@ -1,30 +1,41 @@
 
 
 body{
-  background-color: #101525;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #FFFFFF;
   font-family: "Roboto Slab", serif;
 }
 
-nav{
+nav {
   display: flex;
   gap: 37px;
   justify-content: center;
   align-items: center;
-  background-color: #511AB7;
+  background-color: #511ab7;
   list-style: none;
   height: 97px;
 }
 
-nav ul{
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+nav ul {
   display: flex;
   flex-direction: row;
   gap: 37px;
   list-style: none;
 }
+li a:hover {
+  text-decoration: underline;
+}
+
+
 
 .section1 {
   font-family: "Roboto Slab", serif;
@@ -39,10 +50,18 @@ nav ul{
 
 h1{
   font-size: 60px !important;
+  color: #FFFFFF;
 }
 
 h2{
   font-size: 50px;
+  color: #FFFFFF;
+  margin-top: 58px;
+}
+
+h3 {
+  margin-top: 53px;
+
 }
 
 h4 {
@@ -57,6 +76,7 @@ h4 {
   width: 100%; 
   height: 100%;
   justify-items: flex-end;
+  background-color: #101525;
 }
 
 .order-btn{
@@ -70,15 +90,24 @@ h4 {
   font-family: "Roboto Slab", serif;
 }
 
+.order-btn:hover{
+  opacity: 0.8;
+}
+
+.order-btn:active{
+  opacity: 0.5;
+}
+
+
 .section2 {
   font-size: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 58px;
   width: 100%;
   height: auto;
+  background-color: #101525;
 }
 
 .drink-pics{
@@ -87,15 +116,27 @@ h4 {
   flex-wrap: wrap;
 }
 
+.drink-pics img{
+  transition: all 0.3s ease-in-out;
+}
+
+.drink-pics img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.drink-pics img:active {
+  transform: scale(1.5);
+}
+
 .section3 {
 font-size: 24px;
-margin-top: 58px;
 margin-bottom: 58px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
+background-color: #101525;
+padding: 30px
 }
 
 .picture {
@@ -157,7 +198,6 @@ justify-content: center;
   justify-content: center;
   align-items: center;
   background-color: #FFFFFF;
-  gap: 100px;
   font-family: "Roboto Slab", serif;
   width: 100vw;
   height: auto;
@@ -168,34 +208,70 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50vw;
-  margin-left: 64px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  flex: 1; 
+  height: auto;
 }
 
+.left img{
+  width: 90%;
+  height: auto;
+  max-width: 655px;
+}
 
 
 .right {
   color: #101525;
-  width: 50vw;
+  flex: 1; 
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 64px;
+
 }
 
 .form{
-  width: 60%;
+  width: 80%;
   border: solid;
   border-color: #511AB7;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin-bottom: 68px;
+  max-width: 500px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .section4 {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+  }
+
+  .left {
+    width: 100%; 
+    margin-left: 0;
+  }
+
+  .left img {
+    width: 60%;
+    min-width: 200px; 
+  }
+
+  .right {
+    width: 100%; 
+    align-items: center;
+    text-align: center;
+  }
+
+  .form {
+    width: 90%;
+  }
+}
+
 
 .text{
   width: 355px;
@@ -205,7 +281,7 @@ justify-content: center;
   color: #99754C;
   font-family: "Roboto Slab", serif;
   font-size: 15px;
-  margin-top: 68px;
+  margin-top: 50px;
 }
 
 .input-field {
@@ -230,8 +306,18 @@ justify-content: center;
   background-color: #511AB7;
   border: none;
   color: #FFFFFF;
-
 }
+
+.subscribe-btn:hover{
+  opacity: 0.8;
+}
+
+.subscribe-btn:active{
+  opacity: 0.5;
+}
+
+
+
 
 .middle{
   display: flex;
@@ -240,12 +326,15 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap; 
 }
 
 .block {
+  flex: 1;
   margin-top: 87px;
   margin-bottom: 20px;
   gap: 20px;
+  min-width: 140px;
   max-width: 150px;
 }
 
@@ -254,6 +343,8 @@ justify-content: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 400px;
 }
 
 .block-big img{
@@ -276,12 +367,20 @@ justify-content: center;
   font-size: 15px;
   color: #99754C;
   opacity: 0.73;
-  margin-bottom:62px ;
+  margin-bottom:50px ;
 }
 
 .text-small{
   font-size: 10px;
 }
+
+
+
+
+
+
+
+
 
 
 .footer-logo {
