@@ -14,14 +14,22 @@ nav {
     z-index: 1000;
     top: 0;
     left: 0;
+    color: #ffff;
+    font-size: 20px;
+    
   }
   
   nav a {
     color: white;
-    text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: underline;
   }
   
+nav a:hover {
+    text-decoration: underline;
+}
   nav ul {
     display: flex;
     flex-direction: row;
@@ -32,14 +40,7 @@ nav {
     background: rgb(220, 199, 247);
   }
   
-   .gallery{
-    width: 100%;
-    font-style:bold;
-    font-family: 'roboto slab',sans-serif;
-    text-align: center;
-    margin-top: 77px;
-    font-size: 40px;
-   }
+   
    .grid_container{
 	
 	justify-content: center;
@@ -47,7 +48,7 @@ nav {
 	background-color: #d1cdcd;
     display: flex;
     padding: 20px;
-    padding-right: 0px;
+    padding-bottom: 0px;
     
 }
 body{
@@ -55,35 +56,18 @@ body{
     background-color: #d1cdcd;
     overflow: auto;
     margin-top: 140px;
+    width: 100%;
+    justify-content: center;
 }
-
-
-.footer a,
-  h3 {
-    color: white;
-  }
-  
-  .footer a:hover {
-    text-decoration: underline;
-  }
-  @media (min-width: 1200px) {
-    .reservation-container,
-    .joinus-container {
-      padding: 40px;
-    }
-  
-    .footer-links {
-      gap: 40px;
-    }
-  
-    .footer-column {
-      min-width: 250px;
-    }
-  }
   .gallery  {
-    font-size: 30px;
-    font-weight: bold;
-    animation: colourchange 5s infinite alternate;
+        width: 100%;
+        font-style:bold;
+        font-family: 'roboto slab',sans-serif;
+        text-align: center;
+        margin-top: 400 px;
+        font-size: 40px;
+        font-weight: bold;
+        animation: colourchange 5s infinite alternate;
 }
 
 @keyframes colourchange {
@@ -106,6 +90,7 @@ body{
     padding: 15px;
     place-items: center;
     background-color: #ffff;
+    padding-bottom: 0;
     
   }
   .grid1 img {
@@ -192,6 +177,11 @@ body{
   .item16{
     grid-row: 9/12;
     grid-column: 6/12;
+  }
+  .item17{
+    width: 100%;
+    padding: 0;
+    margin-top: -14px;
   }
 
   .grid1 img {
