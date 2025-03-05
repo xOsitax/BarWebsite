@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+
+
+
+
+body {
+    background-color: white;
+    margin: 0; 
+    font-family: system-ui;
+}
+
+.logo {
+    background-color: #511AB7;
+    width: 100%; 
+    padding: 30px 0; 
+}
+
+.logo1 {
+    display: flex;
+    color:white;
+    justify-content: center; 
+    align-items: center; 
+    gap: 300px; 
+}
+
+.bh141{
+    position: absolute;
+    background-color: black;
+    align-items: center;
+    padding-top: 30px;
+
+
+    width: 200px;
+
+    height: 100px; 
+
+    border: 5px white double;
+
+    
+}
+
+.first_image {
+    color:white;
+    position: relative;
+    
+
+    
+    background-image: url('/images/image11.png');
+
+    
+    background-position: top center;
+    
+    
+    background-size: cover;
+
+    height: 120vh;
+
+
+    padding-top: 200px;
+    
+
+
+    
+    
+}
+
+.first_image h2 {
+    position: absolute;
+    
+
+    top:10px;
+    left: 30px;
+
+}
+
+.first_image h4 {
+    position: absolute;
+    top: 40%;
+     left: 170px;
+
+}
+.first_image h1 {
+    position: absolute;
+    
+
+    top: 50%;
+    left: 200px;
+
+}
+
+.first_image h6 {
+    position: absolute;
+    
+
+    top: 65%;
+    left: 200px;
+
+}
+
+.first_image h5 {
+    display: flex;
+    margin-left:400px;
+
+    margin-bottom: 400px;
+ 
+    border: 2px white solid;
+    justify-content: center;
+    
+    
+    width: 130px;
+    height: 50px;
+
+    position: absolute;
+
+    top: 85%;
+
+        
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second_image{
+
+    background-image: url('/images/image.png');
+    background-size: 300px;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+    
+
+    color: white;
+
+    background-color: white;
+    padding-top: 400px;
+
+
+}
+.second_image{
+
+
+    
+
+    background-color:  #181818;
+}
+
+.second_image h3{
+
+    display: flex;
+
+    position: absolute;
+
+
+    font-size: 25px;
+
+    margin-top: -300px;
+
+    margin-left: 400px;
+
+    
+
+
+
+    
+
+}
+
+.second_image p{
+
+    display: flex;
+
+    position: absolute;
+
+
+    font-size: 18px;
+
+    margin-top: -100px;
+
+    margin-left: 400px;
+
+    
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+.third_image{
+    display: flex;
+
+    
+    background-color: #181818;
+    
+    
+
+}
+.third_image{
+    
+    background-color:#181818;
+
+    background-image: url('/images/image1.png'), url('/images/image copy.png');
+
+    background-size: 50% 100%; /* Each image covers 50% of the width, full height */
+    background-position: left top, right top; /* Positions one on the left, one on the right */
+    background-repeat: no-repeat;
+
+    padding-top: 600px;
+
+
+
+
+
+   
+
+
+    
+
+}
+
+.last_second{
+
+    
+    background-color:#181818;
+    
+    
+    height: 100vh;
+    background-image: url('/images/pic.png'), url('/images/pilen.png'),url('/images/bild1.png');
+    background-size: 190px, 30px, 150px; 
+    background-position: 40% 40%, 80% 60%, 100% 70%; 
+    background-repeat: no-repeat;
+
+
+
+
+    margin-top: 20px;
+    
+    
+}
+
+.last_second p{
+    color: #D16868;
+
+    position: relative;
+
+    top: 25%;
+
+    left: 15%;
+
+
+    
+}
+.last_second h5 {
+    color: white;
+
+    position: relative;
+
+    top: 270px;
+
+    left: 38%;
+
+}
+
+.last_second h1{
+    color: white;
+
+    position: relative;
+
+    top: 275px;
+
+    left: 37%;
+}
+
+
+
+.last_second h6{
+    color: white;
+
+    position: relative;
+
+    top: 210px;
+
+    left: 50%;
+}
+
+
+.last_part{
+    display: flex;
+    background-color: #511AB7;
+    color: white;
+
+    padding-top: 600px;
+
+    
+}
+
+.bar {
+    position: relative;
+    top: -350px;
+    width: 600px;
+
+    height: 200px;;
+    margin-left: 30px;
+    
+    background-color: black;
+    border: 4px white double;
+}
+.bar h1{
+    font-weight: bold;
+
+    font-size: 100px;
+    text-align: center;
+
+}
+.bar h6{
+    text-align: center;
+    font-style: inherit;
+
+}
+
+.div1{
+    position: absolute;
+    
+    margin-top: -70px;
+
+    margin-left:30px;
+
+    font-size: 30px;
+}
+
+
+
+
+.div3 h3{
+    position: absolute;
+
+    margin-top: -70px;
+    font-size: 30px;;
+
+}
+div table{
+    position: relative;
+    margin-left: -70px;
+}
+
+
+.div4 {
+    margin-top: -80px;
+    font-size: 50px;
+
+    
+
+}
+
+.div4 p{
+    position:;
+
+    
+
+    
+}
+
+
+
+
+
+
+
+div3 table {
+    
+    
+
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin-left: 100px;
+}
+
+.div3 th, .div3 td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.div3 th {
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+}
+
+.div3 td {
+    font-size: 16px;
+}
+
+.div3 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+.div4{
+    position: relative;
+
+    
+
+}
+
+
+
+.images_cone {
+    background-color: #511AB7;
+    display: flex; /* or other layout styles */
+    justify-content: left; /* Center images if needed */
+}
+
+.image1, .image2, .image3, .image4 {
+    
+    margin: 20px; /* Add spacing between images */
+}
+
+img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
